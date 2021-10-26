@@ -1,0 +1,24 @@
+@import '~normalize.css';
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  cursor: default;
+  -webkit-overflow-scrolling: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  cursor: default;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
